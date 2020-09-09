@@ -118,6 +118,7 @@ function removeFromList(myItemName) {
     // var indexOfName = todoList.indexOf(myItemName);
     // console.log(indexOfName);
 
+    
 
     todoList.forEach(function(list){
         if(list.name == myItemName){
@@ -125,17 +126,13 @@ function removeFromList(myItemName) {
             let ind = todoList.indexOf(list);
             console.log("Index: " + ind);
 
-
-            console.log (list.name + " hittades");
-            todoList.splice([ind], 1);
+            todoList.splice(ind, 1);
             myForm.reset();
         }     
          
     })
     
 }
-
-
 
 
 
