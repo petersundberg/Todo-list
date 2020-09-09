@@ -1,0 +1,11 @@
+
+200909:
+
+Skapa med vanilla JS och lite DOM-manipulation en applikation som har följande funktionalitet:
+Visa alla poster på listan
+Ta bort / markera en post som avklarad
+Lägg till en post via ett formulär
+
+En post i en todo-list har oftast egenskaperna task och huruvida den är avklarad eller inte.
+Fråga gärna på slack-kanalen #javascript. Har jag tid så svarar jag, och har jag inte tid så svarar jag kanske senare.
+
